@@ -13,6 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <selenium.version>3.0.1</selenium.version>
+    <logger.version>1.1.7</logger.version>
   </properties>
 
   <dependencies>
@@ -25,6 +26,11 @@
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
       <version>${selenium.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>                       <!-- Логирование????-->
+      <artifactId>logback-classic</artifactId>
+      <version>${logger.version}</version>
     </dependency>
 
   </dependencies>
