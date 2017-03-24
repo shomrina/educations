@@ -21,10 +21,9 @@ import org.slf4j.Logger;
 /**
  * Created by Marina on 26.02.2017.
  */
-public class DriverManager {
+public class DriverManager extends Application {
 
-    private WebDriver driver;
-    private WebDriverWait wait;
+
     public Logger LOG = LoggerFactory.getLogger(Logger.ROOT_LOGGER_NAME);
 
     public WebDriver getDriver() {

@@ -4,6 +4,7 @@ package myTests.launchBrowsers;
 
 import framework.DriverManager;
 import framework.pages.LoginAdminPage;
+import myTests.BaseTest;
 import org.openqa.selenium.WebDriver;
 
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -15,9 +16,9 @@ import org.testng.annotations.Test;
 /**
  * Unit test for simple App.
  */
-public class AppChromeTest {
-    private WebDriver driver;
-    private WebDriverWait wait;
+public class AppChromeTest extends BaseTest {
+   /* private WebDriver driver;
+    private WebDriverWait wait;*/
     DriverManager driverManager = new DriverManager();
 
     @BeforeMethod()
